@@ -9,7 +9,10 @@ body {
   background: rgb(255, 252, 244);
   color: rgb(33, 33, 141);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  overflow-x: hidden;
+}
+
+.body-wrapper{
+  overflow: hidden;
 }
 
 html {
@@ -26,7 +29,7 @@ a {
   text-decoration: none;
 }
 
-h2{
+h2 {
   cursor: pointer;
 }
 
@@ -309,6 +312,10 @@ h3 {
   width: 300px;
 }
 
+.flow-4{
+  opacity: 0;
+}
+
 
 /* information */
 
@@ -385,11 +392,11 @@ h3 {
     left: -10px;
   }
 
-  .information-2{
+  .information-2 {
     display: block;
   }
 
-  .lecturer{
+  .lecturer {
     margin-left: 150px;
     margin-top: -30px;
   }
@@ -454,144 +461,165 @@ h3 {
 }
 
 
-@media screen and (max-width:768px) {
 
-  .news{
+@media screen and (max-width:767px) {
+
+  .body-wrapper{
+    overflow: hidden;
+  }
+
+  .news {
     margin-top: -100px;
 
   }
 
-.lesson{
-  margin-left: -20px;
-}
-
-
-  .flow-2 {
-    background: rgb(255, 251, 230);
+  .lesson {
     width: 100%;
-    height: 880px;
-    padding: 40px;
-    border-radius: 20px;
-    margin-left: -20px;
+    margin-left: -30px;
+  }
+
+  .list img{
+    width: 50%;
+    height: 50%;
+  }
+
+  .scroll-infinity__item {
+    width: calc(280vw / 6);
+  }
+
+  .scroll-infinity__item>img {
+    width: 100%;
+    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+  }
+
+  .top-img {
+    float: none;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 0;
+  }
+
+  .title-2 {
+    position: relative;
+    top: 600px;
+    left: 10px;
+    justify-content: center;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .list {
+    display: block;
+  }
+
+  .list p {
+    margin-bottom: 30px;
+  }
+
+  .egg {
+    display: none;
+  }
+
+  .cake {
+    display: none;
+  }
+
+  .notice{
+    display: none;
+  }
+
+  .class{
+    margin-left: 20px;
+    margin-top: -60px;
   }
 
   .classroom img {
     display: none;
   }
 
-  .cake{
-    display: none;
-  }
-
-  .information-2{
+  .information-2 {
     display: block;
     margin-right: 70px;
   }
 
-  .lecturer{
+  .lecturer {
     margin-left: 100px;
     margin-top: -30px;
+  }
+
+  .flow-img{
+    display: none;
+  }
+
+  .flow-2 {
+    display: none;
+  }
+
+  .flow-4{
+    opacity: 1;
+    background: rgb(255, 251, 230);
+    width: 100%;
+    margin: 0;
+    padding: 0 auto;
+  }
+
+  .flow-4 dl {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .flow-4 dl img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    padding: 0 20px;
+  }
+
+  .content-2 {
+    width: 100%;
+    text-align: center;
+  }
+
+
+}
+
+@media screen and (max-width:600px) {
+
+  .content-2 {
+    margin-left: -115px;
+  }
+
+  .lecturer {
+    margin-left: 35px;
   }
 
 
 }
 
 
-  @media screen and (max-width:767px) {
-    .scroll-infinity__item {
-      width: calc(280vw / 6);
-    }
 
-    .scroll-infinity__item>img {
-      width: 100%;
-      box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
-    }
-
-    .top-img {
-      float: none;
-      width: 100%;
-      height: 400px;
-      object-fit: cover;
-      border-radius: 0;
-    }
-
-    .title-2{
-      position: relative;
-      top: 600px;
-      left: 10px;
-      justify-content: center;
-      display: flex;
-      gap: 10px;
-      align-items: center;
-    }
-
-    .list{
-      display: block;
-    }
-
-    .list p{
-      margin-bottom: 30px;
-    }
-
-    .egg{
-      display: none;
-    }
-
-    .flow-2 {
-      background: rgb(255, 251, 230);
-      width: 100%;
-      height: 880px;
-      padding: 40px;
-      position: absolute;
-      top: 5200px;
-      left: -25px;
-    }
-
-    .information-2{
-      display: block;
-      padding: 30px;
-    }
-
-    .content-2{
-      width: 100%;
-      margin-left: -50px;
-    }
-
-
+/* タブレット */
+@media screen and (min-width:768px) and (max-width:959px) {
+  .scroll-infinity__item {
+    width: calc(220vw / 6);
   }
 
-  @media screen and (max-width:600px){
-
-    .content-2{
-      margin-left: -115px;
-    }
-
-    .lecturer{
-      margin-left: 35px;
-    }
-
+  .scroll-infinity__item>img {
+    width: 100%;
+    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
   }
 
-
-
-  /* タブレット */
-  @media screen and (min-width:768px) and (max-width:959px) {
-    .scroll-infinity__item {
-      width: calc(220vw / 6);
-    }
-
-    .scroll-infinity__item>img {
-      width: 100%;
-      box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
-    }
-
-    .title-2{
-      position: relative;
-      top: -90px;
-      left: 400px;
-      display: flex;
-      gap: 15px;
-      align-items: center;
-    }
-
+  .title-2 {
+    position: relative;
+    top: -90px;
+    left: 400px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
   }
+
+}
