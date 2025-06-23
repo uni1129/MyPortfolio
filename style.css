@@ -319,6 +319,10 @@ h3 {
 
 /* information */
 
+.information-1{
+  margin-top: -6400px;
+}
+
 .information {
   margin: 100px 0;
   text-align: center;
@@ -580,10 +584,12 @@ h3 {
   }
 
   .content-2 {
-    width: 100%;
-    text-align: center;
+    width: 80%;
   }
 
+  .information-1{
+    margin-top: -80px;
+  }
 
 }
 
