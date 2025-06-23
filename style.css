@@ -1,0 +1,597 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: rgb(255, 252, 244);
+  color: rgb(33, 33, 141);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  overflow-x: hidden;
+}
+
+html {
+  font-size: 100%;
+  line-height: 1.6;
+}
+
+span {
+  color: rgb(228, 162, 75);
+  font-family: fantasy, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2{
+  cursor: pointer;
+}
+
+.material-symbols-outlined {
+  color: aliceblue;
+}
+
+
+/* header */
+
+.top-img {
+  float: right;
+  width: 70%;
+  height: 760px;
+  object-fit: cover;
+  border-radius: 0 0 0 20%;
+}
+
+
+.title-1 {
+  text-align: center;
+  padding: 30px 20px;
+}
+
+.title-1 h1 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.title-2 {
+  position: relative;
+  top: -90px;
+  left: 500px;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.reservation {
+  width: 180px;
+  height: 40px;
+  margin: 0;
+  font-size: 15px;
+  text-align: center;
+  border: 1px solid rgb(3, 3, 26);
+  background: rgb(33, 33, 141);
+  color: aliceblue;
+  border-radius: 30px;
+  line-height: 3;
+  align-items: center;
+  cursor: pointer;
+}
+
+.reservation span {
+  font-size: 15px;
+}
+
+header ul {
+  text-align: center;
+}
+
+header li {
+  padding: 16px 0;
+}
+
+h2 {
+  font-family: "Albert Sans", sans-serif;
+  font-weight: 300;
+}
+
+
+/* main */
+
+main {
+  margin: 320px auto;
+}
+
+.news {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+h3 {
+  font-size: 32px;
+  font-family: "Albert Sans", sans-serif;
+  font-weight: 300;
+}
+
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 64px;
+  margin-bottom: 40px;
+}
+
+.list img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 32px;
+  margin-bottom: 20px;
+}
+
+.list article {
+  text-align: center;
+}
+
+.notice {
+  width: 180px;
+  height: 40px;
+  font-size: 15px;
+  text-align: center;
+  border: 1px solid rgb(3, 3, 26);
+  background: rgb(33, 33, 141);
+  color: aliceblue;
+  border-radius: 30px;
+  margin-left: 100px;
+  padding-top: 10px;
+  cursor: pointer;
+}
+
+.notice span {
+  font-size: 15px;
+}
+
+
+.classroom {
+  display: flex;
+  margin-top: 240px;
+  align-items: center;
+  justify-content: center;
+}
+
+.classroom img {
+  width: 40%;
+  border-radius: 30px;
+  margin-left: 64px;
+  height: 480px;
+  object-fit: cover;
+}
+
+.class-2 {
+  margin-top: 30px;
+}
+
+
+.room img {
+  width: 100%;
+  margin-top: 240px;
+  height: 300px;
+  object-fit: cover;
+  opacity: .8;
+}
+
+
+/* lesson */
+
+.lesson {
+  display: flex;
+  justify-content: center;
+  margin-top: 240px;
+}
+
+.lesson img {
+  width: 16%;
+  height: 400px;
+  object-fit: cover;
+  margin: 0 10px;
+  border-radius: 20px;
+}
+
+.lesson .cake {
+  margin-top: 100px;
+}
+
+.lesson-2 {
+  margin-left: 50px;
+  align-items: center;
+}
+
+.lesson-2 p {
+  margin-top: 10px;
+}
+
+.content {
+  margin: 40px 0;
+}
+
+.content dt {
+  width: 70px;
+}
+
+.content dl {
+  display: flex;
+  height: 30px;
+  margin: 20px 0;
+  padding-top: 10px;
+}
+
+.content dl dd {
+  width: 240px;
+  margin-left: 50px;
+}
+
+.content dl+dl {
+  border-top: 1px solid rgba(229, 157, 22, 0.782);
+  width: 360px;
+}
+
+.notice-2 {
+  width: 180px;
+  height: 40px;
+  font-size: 15px;
+  text-align: center;
+  padding-bottom: 5px;
+  border: 1px solid rgb(3, 3, 26);
+  background: rgb(33, 33, 141);
+  color: aliceblue;
+  border-radius: 30px;
+  margin-left: 100px;
+  cursor: pointer;
+}
+
+.notice-2 span {
+  font-size: 15px;
+}
+
+
+
+/* flow */
+
+.flow {
+  margin-top: 180px;
+}
+
+.flow img {
+  width: 100%;
+  height: 1200px;
+  object-fit: cover;
+}
+
+.theme {
+  text-align: center;
+}
+
+.flow-2 {
+  background: rgb(255, 251, 230);
+  width: 50%;
+  height: 880px;
+  padding: 40px;
+  position: absolute;
+  top: 4050px;
+  left: 300px;
+  border-radius: 20px;
+}
+
+.flow-2 dl img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  padding: 0 20px;
+}
+
+.flow-3 {
+  padding-top: 40px;
+}
+
+.flow-3 dl {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.flow-3 dd {
+  padding: 0 20px;
+}
+
+.flow-3 p {
+  width: 300px;
+}
+
+
+/* information */
+
+.information {
+  margin: 100px 0;
+  text-align: center;
+}
+
+.information img {
+  width: 70%;
+  height: 500px;
+  object-fit: cover;
+}
+
+.information {
+  margin-bottom: 20px;
+}
+
+.information-2 {
+  display: flex;
+}
+
+.content-2 {
+  padding: 40px 150px;
+}
+
+.lecturer {
+  padding-top: 110px;
+}
+
+.lecturer h5 {
+  margin-bottom: 20px;
+}
+
+
+
+/* footer */
+/* scroll */
+
+.scroll-infinity {
+  margin-top: -200px;
+}
+
+.scroll-infinity__item {
+  width: calc(100vw / 6);
+}
+
+.scroll-infinity__item>img {
+  width: 100%;
+  box-shadow: 6px 6px 30px 0px rgba(0, 0, 0, 0.1);
+  margin-bottom: 0.55vw;
+}
+
+.footer {
+  text-align: center;
+  background: rgb(23, 23, 113);
+  color: aliceblue;
+  padding: 40px 0;
+}
+
+
+
+
+/* タブレット */
+@media screen and (min-width:768px) and (max-width:959px) {
+
+  .flow-2 {
+    background: rgb(255, 251, 230);
+    width: 100%;
+    height: 880px;
+    padding: 40px;
+    position: absolute;
+    top: 4050px;
+    left: -10px;
+  }
+
+  .information-2{
+    display: block;
+  }
+
+  .lecturer{
+    margin-left: 150px;
+    margin-top: -30px;
+  }
+
+}
+
+@keyframes infinity-scroll-left {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.scroll-infinity__wrap {
+  display: flex;
+}
+
+.scroll-infinity__list {
+  display: flex;
+  list-style: none;
+  padding: 0
+}
+
+.scroll-infinity__list--left {
+  animation: infinity-scroll-left 80s infinite linear 0.5s both;
+}
+
+.scroll-infinity__item {
+  width: calc(100vw / 6);
+}
+
+.scroll-infinity__item>img {
+  width: 100%;
+  box-shadow: 6px 6px 30px 0px rgba(0, 0, 0, 0.1);
+  margin-bottom: 0.55vw;
+}
+
+
+@keyframes infinity-scroll-right {
+  from {
+    transform: translateX(-100%);
+  }
+
+  to {
+    transform: translateX(0%);
+  }
+}
+
+.scroll-infinity__list--right {
+  animation: infinity-scroll-right 80s infinite linear 0.5s both;
+}
+
+.scroll-infinity {
+  margin-bottom: 64px;
+}
+
+.scroll-infinity ul li {
+  padding-right: 20px;
+}
+
+
+@media screen and (max-width:768px) {
+
+  .news{
+    margin-top: -100px;
+
+  }
+
+.lesson{
+  margin-left: -20px;
+}
+
+
+  .flow-2 {
+    background: rgb(255, 251, 230);
+    width: 100%;
+    height: 880px;
+    padding: 40px;
+    border-radius: 20px;
+    margin-left: -20px;
+  }
+
+  .classroom img {
+    display: none;
+  }
+
+  .cake{
+    display: none;
+  }
+
+  .information-2{
+    display: block;
+    margin-right: 70px;
+  }
+
+  .lecturer{
+    margin-left: 100px;
+    margin-top: -30px;
+  }
+
+
+}
+
+
+  @media screen and (max-width:767px) {
+    .scroll-infinity__item {
+      width: calc(280vw / 6);
+    }
+
+    .scroll-infinity__item>img {
+      width: 100%;
+      box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+    }
+
+    .top-img {
+      float: none;
+      width: 100%;
+      height: 400px;
+      object-fit: cover;
+      border-radius: 0;
+    }
+
+    .title-2{
+      position: relative;
+      top: 600px;
+      left: 10px;
+      justify-content: center;
+      display: flex;
+      gap: 10px;
+      align-items: center;
+    }
+
+    .list{
+      display: block;
+    }
+
+    .list p{
+      margin-bottom: 30px;
+    }
+
+    .egg{
+      display: none;
+    }
+
+    .flow-2 {
+      background: rgb(255, 251, 230);
+      width: 100%;
+      height: 880px;
+      padding: 40px;
+      position: absolute;
+      top: 5200px;
+      left: -25px;
+    }
+
+    .information-2{
+      display: block;
+      padding: 30px;
+    }
+
+    .content-2{
+      width: 100%;
+      margin-left: -50px;
+    }
+
+
+  }
+
+  @media screen and (max-width:600px){
+
+    .content-2{
+      margin-left: -115px;
+    }
+
+    .lecturer{
+      margin-left: 35px;
+    }
+
+  }
+
+
+
+  /* タブレット */
+  @media screen and (min-width:768px) and (max-width:959px) {
+    .scroll-infinity__item {
+      width: calc(220vw / 6);
+    }
+
+    .scroll-infinity__item>img {
+      width: 100%;
+      box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+    }
+
+    .title-2{
+      position: relative;
+      top: -90px;
+      left: 400px;
+      display: flex;
+      gap: 15px;
+      align-items: center;
+    }
+
+  }
