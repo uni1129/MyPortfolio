@@ -90,8 +90,12 @@
           <span>がおすすめです。</span>
         </div>
 
-        <img class="answer-img1" src="img/IMG_0067.JPG" alt="">
-        <img class="answer-img2" src="img/IMG_3292.JPG" alt="">
+        <img class="answer-img1" src="img/IMG_0067-2.JPG" alt="">
+        <img class="answer-img2" src="img/IMG_3292-2.JPG" alt="">
+
+
+        <img class="answer-img1--pc" src="img/IMG_0067-2.JPG" alt="">
+        <img class="answer-img2--pc" src="img/IMG_3292-2.JPG" alt="">
 
       </article>
     </section>
@@ -146,7 +150,7 @@
     {
       const open = document.getElementById('open');
       const close = document.getElementById('close');
-      const overlay = document.querySelector('overlay');
+      const overlay = document.querySelector('.overlay');
 
       open.addEventListener('click', () => {
         overlay.classList.add('show');
@@ -155,7 +159,7 @@
 
       close.addEventListener('click', () => {
         overlay.classList.remove('show');
-        close.classList.remove('hidden');
+        open.classList.remove('hidden');
       });
     }
   </script>

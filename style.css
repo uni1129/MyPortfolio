@@ -150,18 +150,26 @@ header ul {
   font-family: Georgia, serif;
 }
 
-.answer-img1 {
+.answer-img1--pc {
   width: 30%;
+  content: "";
   position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
   top: 1400px;
   left: 350px;
+  z-index: -1;
 }
 
-.answer-img2 {
+.answer-img2--pc {
   width: 30%;
+  content: "";
   position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
   top: 1600px;
-  left: 730px;
+  left: 700px;
+  z-index: 0;
 }
 
 
@@ -279,8 +287,6 @@ header ul {
 
 
 /* check-list */
-
-.check-list {}
 
 .list-text h6 {
   margin: 100px auto -20px;
