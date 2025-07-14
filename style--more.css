@@ -204,7 +204,7 @@ body {
 
 
   .top-wrap {
-    margin-top: 64px;
+    margin-top: 64px 0;
   }
 
   .top-wrap img {
@@ -236,16 +236,16 @@ body {
   }
 
   .wonder {
-    margin-top: 700px;
+    height: 1050px;
+    margin-top: 500px;
     text-align: center;
     background-image: url(img/IMG_3381.PNG);
     background-size: 100%;
     object-fit: cover;
-    height: 1050px;
   }
 
   .wonder P {
-    padding: 24px;
+    padding: 24px 0;
   }
 
 
@@ -327,8 +327,17 @@ body {
     font-size: 15px;
   }
 
+  .list-text h6{
+    width: 100%;
+    max-width: 0;
+  }
+
   footer img{
     width: 28%;
+  }
+
+  footer ul{
+    gap: 10px;
   }
 }
 

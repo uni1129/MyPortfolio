@@ -111,7 +111,7 @@ header ul {
 .top-wrap span {
   border: solid 1px #3f5d7fc4;
   background: #3f5d7fc4;
-  padding: 10px;
+  padding: 10px 0;
 }
 
 .top-wrap h3 {
@@ -176,12 +176,18 @@ header ul {
 
 
 .wonder {
+  width: 100%;
+  height: 1600px;
   margin-top: 700px;
   text-align: center;
   background-image: url(img/IMG_3381.PNG);
   background-size: 100%;
   object-fit: cover;
-  height: 1600px;
+}
+
+.wonder h4 {
+  font-family: Georgia, serif;
+  margin-bottom: 30px;
 }
 
 .text2 {
@@ -198,11 +204,6 @@ header ul {
   border-bottom: 1px solid #72baf9;
   color: #72baf9;
   letter-spacing: 3px;
-}
-
-.wonder h4 {
-  font-family: Georgia, serif;
-  margin-bottom: 30px;
 }
 
 .wonder-explanation--1 {
@@ -224,8 +225,8 @@ header ul {
 
 .explanation--1 {
   width: 360px;
-  height: 220px;
-  padding: 50px;
+  /* height: 220px; */
+  padding: 50px 0;
   text-align: left;
   border: 1px solid rgb(246, 252, 255);
   background: rgb(246, 252, 255);
@@ -266,7 +267,7 @@ header ul {
 
 .explanation--2 {
   width: 360px;
-  padding: 60px;
+  padding: 60px 0;
   text-align: left;
   border: 1px solid rgb(246, 252, 255);
   background: rgb(246, 252, 255);
@@ -290,7 +291,7 @@ header ul {
 /* check-list */
 
 .list-text h6 {
-  margin: 100px auto -20px;
+  margin: 100px auto;
   font-family: Georgia, serif;
   font-size: 28px;
   color: aliceblue;
@@ -319,7 +320,7 @@ header ul {
 }
 
 .list--1 li {
-  padding: 10px 40px;
+  /* padding: 10px 40px; */
   width: 400px;
   border-bottom: .8px solid gray;
 }
@@ -342,6 +343,10 @@ footer ul{
   display: flex;
   gap: 24px;
   justify-content: center;
+}
+
+footer li{
+  
 }
 
 footer small{
