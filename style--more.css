@@ -284,8 +284,8 @@ body {
 
 
 
-
-@media (min-width:360px) {
+/* タブレットまで */
+@media (min-width:429px) {
 
   body {
     overflow-x: hidden;
@@ -340,8 +340,4 @@ body {
     width: 28%;
   }
   
-}
-
-@media (max-width:359px) {
-
 }
