@@ -319,6 +319,10 @@ body {
     left: 200px;
   }
 
+  .wonder{
+    margin-top: 700px;
+  }
+
   .explanation--1 span {
     font-size: 15px;
   }
@@ -326,19 +330,16 @@ body {
   .explanation--2 span {
     font-size: 15px;
   }
-
+/* 
   .list-text h6{
     width: 100%;
     max-width: 0;
-  }
+  } */
 
   footer img{
     width: 28%;
   }
-
-  footer ul{
-    gap: 10px;
-  }
+  
 }
 
 @media (max-width:359px) {
