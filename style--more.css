@@ -316,8 +316,8 @@ body {
     width: 65%;
   }
 
-  .main-title {
-    padding-left: 40px
+  .main-title{
+    width: 300px;
   }
 
   .answer-img1 {
@@ -337,8 +337,9 @@ body {
   }
 
   .wonder {
-    margin-top: 650px;
+    margin-top: 600px;
   }
+  
 
   footer img {
     width: 28%;
