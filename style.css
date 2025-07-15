@@ -61,7 +61,7 @@ header ul {
 }
 
 .top--img {
-  width: 68%;
+  width: 73%;
   height: 530px;
   justify-content: right;
   object-fit: cover;
@@ -71,7 +71,7 @@ header ul {
 
 .main-title {
   width: 430px;
-  padding-left: 50px
+  padding: 0 60px 0 50px;
 }
 
 .main-title img {
@@ -179,7 +179,7 @@ header ul {
 
 .wonder {
   width: 100%;
-  height: 1600px;
+  height: 1500px;
   margin-top: 700px;
   text-align: center;
   background-image: url(img/IMG_3381.PNG);
