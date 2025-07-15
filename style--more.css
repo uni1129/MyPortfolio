@@ -295,12 +295,20 @@ body {
     justify-content: center;
   }
 
+  footer img{
+    width: 16%;
+  }
+
 }
 
 
 
 /* タブレットまで */
-@media (min-width:429px) {
+@media (max-width:429px) {
+}
+
+
+@media (min-width:430px) {
 
   body {
     overflow-x: hidden;
@@ -316,14 +324,6 @@ body {
 
   .explanation--2 span {
     font-size: 15px;
-  }
-}
-
-
-@media (min-width:429px) {
-
-  body {
-    overflow-x: hidden;
   }
 
   .sp--top--img {
