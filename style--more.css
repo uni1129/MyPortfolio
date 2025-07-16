@@ -375,17 +375,31 @@ body {
     font-size: 13px;
   }
 
-  .list-text{
-    width: 100%;
+
+  .check-list{
+    width: 300px;
   }
 
   .list-text h6{
-    width: 100%;
+    font-size: 16px;
+  }
+
+  .list--1{
+    width: 300px;
+  }
+
+  .list--1 p{
+    width: 250px;
   }
 
   .list--1 img{
     font-size: 13px;
   }
+
+  .list--1 li{
+    width: 300px;
+  }
+
 
   footer li {
     font-size: 10px;
