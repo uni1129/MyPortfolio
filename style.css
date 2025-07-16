@@ -61,9 +61,9 @@ header ul {
 }
 
 .top--img {
-  width: 73%;
+  width: 75%;
   height: 530px;
-  justify-content: right;
+  justify-content: space-between;
   object-fit: cover;
   border-radius: 50px 0 0 0;
   z-index: 0;
@@ -71,7 +71,7 @@ header ul {
 
 .main-title {
   width: 430px;
-  padding: 0 60px 0 50px;
+  padding: 0 80px 0 30px;
 }
 
 .main-title img {
@@ -139,7 +139,8 @@ header ul {
 
 .answer {
   text-align: center;
-  margin: 80px 0;
+  margin: 80px 0 400px;
+  padding-bottom: 320px;
 }
 
 .answer span {
@@ -178,9 +179,8 @@ header ul {
 
 
 .wonder {
+  padding-bottom: 20px;
   width: 100%;
-  height: 1500px;
-  margin-top: 700px;
   text-align: center;
   background-image: url(img/IMG_3381.PNG);
   background-size: 100%;
@@ -194,7 +194,7 @@ header ul {
 
 .text2 {
   width: 50%;
-  padding-top: 100px;
+  padding-top: 80px;
 }
 
 .wonder span {
@@ -210,10 +210,10 @@ header ul {
 
 
 .wonder-explanation--1 {
-  margin: 80px 0 20px;
+  padding: 80px 0 20px;
   display: block;
   display: flex;
-  width: 100%;
+  /* width: 100%; */
   justify-content: center;
   gap: 10px;
   align-items: last baseline;
@@ -248,7 +248,7 @@ header ul {
 }
 
 .wonder-explanation--2 {
-  margin: 80px 0 20px;
+  margin: 60px 0 20px;
   display: block;
   display: flex;
   width: 100%;
