@@ -375,8 +375,12 @@ body {
     font-size: 13px;
   }
 
+  .list-text{
+    width: 100%;
+  }
+
   .list-text h6{
-    width: 50%;
+    width: 100%;
   }
 
   .list--1 img{
