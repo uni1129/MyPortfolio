@@ -375,9 +375,12 @@ body {
     font-size: 13px;
   }
 
-  .check-list {
+  .list-text h6{
     width: 50%;
-    margin: 0 auto;
+  }
+
+  .list--1 img{
+    font-size: 13px;
   }
 
   footer li {
