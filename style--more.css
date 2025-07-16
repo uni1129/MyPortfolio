@@ -21,6 +21,7 @@ body {
   display: none;
 }
 
+
 .overlay {
   position: fixed;
   top: 0;
@@ -53,6 +54,8 @@ body {
   opacity: 0;
   transform: translate(0, 16px);
   transition: transform .3, opacity.3s;
+  cursor: pointer;
+
 }
 
 .overlay.show {
@@ -108,7 +111,7 @@ body {
   }
 
   .pc-menu a:hover {
-    background: gray;
+    background: #ad9696;
   }
 
   .answer {
@@ -397,6 +400,10 @@ body {
     font-size: 13px;
   }
 
+  footer img {
+    width: 20%;
+  }
+
   footer li {
     font-size: 10px;
   }
@@ -404,6 +411,8 @@ body {
   footer small {
     font-size: 10px;
   }
+
+
 
 }
 
