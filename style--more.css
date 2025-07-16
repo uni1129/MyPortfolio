@@ -377,29 +377,25 @@ body {
 
 
   .check-list{
-    width: 300px;
+    width: 400px;
+    margin: 0 auto;
   }
 
   .list-text h6{
     font-size: 16px;
   }
 
-  .list--1{
-    width: 300px;
+  .list--1 p{
+    font-size: 14px;
   }
 
-  .list--1 p{
-    width: 250px;
+  .list--1 li{
+    font-size: 13px;
   }
 
   .list--1 img{
     font-size: 13px;
   }
-
-  .list--1 li{
-    width: 300px;
-  }
-
 
   footer li {
     font-size: 10px;
