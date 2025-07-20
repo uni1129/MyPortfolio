@@ -268,11 +268,11 @@ body {
   }
 
 
-  .wonder-explanation--1 img {
+  .wonder-explanation-1 img {
     display: none;
   }
 
-  .wonder-explanation--2 img {
+  .wonder-explanation-2 img {
     display: none;
   }
 
@@ -354,7 +354,7 @@ body {
     margin-top: -240px;
   }
 
-  .wonder-explanation--1 {
+  .wonder-explanation-1 {
     margin: -10px 0 -60px;
   }
 
@@ -388,7 +388,7 @@ body {
   }
 
   .list-1{
-    height: 500px;
+    height: 600px;
   }
 
   .list-1 p {
