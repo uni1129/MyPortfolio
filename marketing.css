@@ -387,6 +387,10 @@ body {
     height: 50px;
   }
 
+  .list-1{
+    height: 500px;
+  }
+
   .list-1 p {
     font-size: 14px;
   }
