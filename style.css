@@ -322,13 +322,15 @@ header ul {
   margin: 20px auto;
   font-family: Georgia, serif;
   font-size: 24px;
-  width: 400px;
+  /* width: 400px; */
+  margin: 0 auto;
+  display: block;
   text-align: center;
 }
 
 .list-1 li {
   padding: 10px 0;
-  width: 500px;
+  /* width: 500px; */
   border-bottom: .8px solid gray;
 }
 
