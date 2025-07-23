@@ -291,6 +291,12 @@ header ul {
 
 /* check-list */
 
+.check-list{
+  margin: 0 auto;
+  display: block;
+  justify-content: center;
+}
+
 .list-text h6 {
   margin: 40px auto;
   font-family: Georgia, serif;
