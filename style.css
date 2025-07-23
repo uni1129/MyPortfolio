@@ -225,7 +225,7 @@ header ul {
   border-radius: 0 50px 0 0;
 }
 
-.explanation--1 {
+.explanation-1 {
   width: 360px;
   padding: 50px;
   text-align: left;
@@ -233,7 +233,7 @@ header ul {
   background: rgb(246, 252, 255);
 }
 
-.explanation--1 span {
+.explanation-1 span {
   font-size: 27px;
   border: 1px solid #a4beff;
   background: #a4beff;
@@ -242,7 +242,7 @@ header ul {
   margin: 0 8px 0 0;
 }
 
-.explanation--1 h5 {
+.explanation-1 h5 {
   margin-bottom: 10px;
 }
 
@@ -266,7 +266,7 @@ header ul {
   align-items: baseline;
 }
 
-.explanation--2 {
+.explanation-2 {
   width: 360px;
   padding: 50px;
   text-align: left;
@@ -274,7 +274,7 @@ header ul {
   background: rgb(246, 252, 255);
 }
 
-.explanation--2 span {
+.explanation-2 span {
   font-size: 27px;
   border: 1px solid #a4beff;
   background: #a4beff;
@@ -283,7 +283,7 @@ header ul {
   margin: 0 8px 0 0;
 }
 
-.explanation--2 h5 {
+.explanation-2 h5 {
   margin-bottom: 10px;
 }
 
@@ -319,7 +319,7 @@ header ul {
 }
 
 .list-1 p {
-  margin: 20px auto;
+  padding: 20px 0 30px;
   font-family: Georgia, serif;
   font-size: 24px;
   /* width: 400px; */

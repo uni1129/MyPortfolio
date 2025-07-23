@@ -277,21 +277,21 @@ body {
   }
 
 
-  .explanation--1 {
+  .explanation-1 {
     padding: 30px;
     height: 140px;
   }
 
-  .explanation--2 {
+  .explanation-2 {
     padding: 30px;
     height: 110px;
   }
 
-  .explanation--1 p {
+  .explanation-1 p {
     font-size: 12px;
   }
 
-  .explanation--2 p {
+  .explanation-2 p {
     font-size: 12px;
   }
 
@@ -329,11 +329,11 @@ body {
     margin-top: 20px;
   }
 
-  .explanation--1 {
+  .explanation-1 {
     margin-top: -80px;
   }
 
-  .explanation--2 {
+  .explanation-2 {
     margin-top: -60px;
   }
 
@@ -397,7 +397,7 @@ body {
 
   .list-1 li {
     font-size: 13px;
-    width: 400px;
+    /* width: 400px; */
   }
 
   .list-1 img {
@@ -449,11 +449,19 @@ body {
     font-size: 12px;
   }
 
-  .explanation--1 span {
+  .explanation-1{
+    height: 150px;
+  }
+
+  .explanation-2{
+    height: 140px;
+  }
+
+  .explanation-1 span {
     font-size: 15px;
   }
 
-  .explanation--2 span {
+  .explanation-2 span {
     font-size: 15px;
   }
 
