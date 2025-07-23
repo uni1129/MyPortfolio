@@ -234,7 +234,7 @@ header ul {
 }
 
 .explanation-1 span {
-  font-size: 27px;
+  font-size: 25px;
   border: 1px solid #a4beff;
   background: #a4beff;
   color: aliceblue;
@@ -242,9 +242,9 @@ header ul {
   margin: 0 8px 0 0;
 }
 
-.explanation-1 h5 {
+/* .explanation-1 h5 {
   margin-bottom: 10px;
-}
+} */
 
 .wonder-explanation-2 {
   margin: 60px 0 20px;
@@ -263,7 +263,6 @@ header ul {
   height: 320px;
   object-fit: cover;
   border-radius: 50px 0 0 0;
-  align-items: baseline;
 }
 
 .explanation-2 {
@@ -275,7 +274,7 @@ header ul {
 }
 
 .explanation-2 span {
-  font-size: 27px;
+  font-size: 25px;
   border: 1px solid #a4beff;
   background: #a4beff;
   color: aliceblue;
@@ -283,9 +282,9 @@ header ul {
   margin: 0 8px 0 0;
 }
 
-.explanation-2 h5 {
+/* .explanation-2 h5 {
   margin-bottom: 10px;
-}
+} */
 
 
 

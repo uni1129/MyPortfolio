@@ -142,6 +142,7 @@ body {
 
   .wonder p {
     padding-top: 30px;
+    font-size: px;
   }
 
 
@@ -279,12 +280,12 @@ body {
 
   .explanation-1 {
     padding: 30px;
-    height: 140px;
+    height: 170px;
   }
 
   .explanation-2 {
     padding: 30px;
-    height: 110px;
+    height: 120px;
   }
 
   .explanation-1 p {
@@ -337,7 +338,13 @@ body {
     margin-top: -60px;
   }
 
+  .explanation-1 span {
+    font-size: 15px;
+  }
 
+  .explanation-2 span {
+    font-size: 15px;
+  }
 
 }
 
@@ -375,7 +382,6 @@ body {
     font-size: 13px;
   }
 
-
   .check-list {
     width: 400px;
     margin: 0 10px;
@@ -388,16 +394,13 @@ body {
   }
 
   .list-1{
-    height: 600px;
+    width: 300px;
+    /* height: 500px; */
+    font-size: 13px;
   }
 
   .list-1 p {
     font-size: 16px;
-  }
-
-  .list-1 li {
-    font-size: 13px;
-    /* width: 400px; */
   }
 
   .list-1 img {
@@ -443,26 +446,6 @@ body {
 
   .wonder h4 {
     margin-bottom: -17px;
-  }
-
-  .wonder p {
-    font-size: 12px;
-  }
-
-  .explanation-1{
-    height: 150px;
-  }
-
-  .explanation-2{
-    height: 140px;
-  }
-
-  .explanation-1 span {
-    font-size: 15px;
-  }
-
-  .explanation-2 span {
-    font-size: 15px;
   }
 
 
