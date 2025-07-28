@@ -4,27 +4,69 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Beauty salon HP</title>
-  <link rel="icon" href="img/pc:stretch1.webp">
+  <title>生成AI研修/Tech Mentor法人研修</title>
+  <link rel="icon" href="img/top-icon.webp">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="menu.css">
   <link rel="stylesheet" href="marketing.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
 <body>
   <header>
-    <h1>氣清流バランス</h1>
-    <img src="img/text:coco-citta1.webp" alt="coco-citta画像">
+    <h1>
+      <a><img class="headerNav-top-img" src="img/Tech Mentor.webp"></a>
+    </h1>
 
     <div class="pc-menu">
       <nav>
         <ul>
-          <li><a href="">氣清流バランスケアとは</a></li>
-          <li><a href="">メニュー</a></li>
-          <li><a href="">お客様の声</a></li>
-          <li><a href="">アクセス</a></li>
-          <li><a href="">お問い合わせ</a></li>
+          <li>サブスク研修</li>
+          <li>生成AI研修</li>
+          <ul>
+            <li><a href="">e-ラーニングコース</a></li>
+            <li><a href="">営業コース</a></li>
+            <li><a href="">マーケティングコース</a></li>
+          </ul>
+          <li>助成金</li>
+          <li>IT研修一覧</li>
+          <ul>
+            <li>
+              <p>フロントエンド</p>
+            </li>
+            <li><a href="">HTML/CSS/JS基礎</a></li>
+            <li><a href="">React/Next</a></li>
+            <li><a href="">React/Next.js総合</a></li>
+            <li><a href="">React/TypeScript</a></li>
+            <li><a href="">Vue/Nuxt</a></li>
+            <li><a href="">フロントエンド総合</a></li>
+          </ul>
+
+          <ul>
+            <li>
+              <p>バックエンド</p>
+            </li>
+            <li><a href="">Java/SpringBoot</a></li>
+            <li><a href="">PHP/Laravel</a></li>
+            <li><a href="">PHP/Laravel総合研修</a></li>
+            <li><a href="">Python/Django</a></li>
+          </ul>
+
+          <ul>
+            <li>
+              <p>Web制作</p>
+            </li>
+            <li><a href="">Figma</a></li>
+            <li><a href="">Web制作基礎</a></li>
+            <li><a href="">Web制作総合</a></li>
+            <li><a href="">WordPress</a></li>
+          </ul>
         </ul>
+        <ul>
+          <li><a><span>〜 見積もり・研修提案 〜</span>無料相談<img src="img/movie-top-icon.webp"></a></li>
+          <li><a><span>〜 料金が気になる方 〜</span>資料請求<img src="img/note-top-icon.webp"></a></li>
+        </ul>
+      </nav>
     </div>
 
     <div class="sp-menu">
@@ -38,133 +80,283 @@
     <span class="material-icons" id="close">
       close
     </span>
-    <nav>
+    <nav class="header-nav">
       <ul>
-        <li><a href="#">氣清流バランスケアとは</a></li>
-        <li><a href="#"></a>メニュー</li>
-        <li><a href="#"></a>お客様の声</li>
-        <li><a href="#"></a>アクセス</li>
-        <li><a href="#"></a>お問い合わせ</li>
+        <li class="headerNav-training">サブスク研修</li>
+        <li class="headerNav-AItraining">生成AI研修</li>
+        <ul class="details">
+          <li><a href="">e-ラーニングコース</a></li>
+          <li><a href="">営業コース</a></li>
+          <li><a href="">マーケティングコース</a></li>
+        </ul>
+        <li class="headerNav-grants">助成金</li>
+        <li class="headerNav-IT">IT研修一覧</li>
+        <ul class="details">
+          <li>
+            <p>フロントエンド</p>
+          </li>
+          <li><a href="">HTML/CSS/JS基礎</a></li>
+          <li><a href="">React/Next</a></li>
+          <li><a href="">React/Next.js総合</a></li>
+          <li><a href="">React/TypeScript</a></li>
+          <li><a href="">Vue/Nuxt</a></li>
+          <li><a href="">フロントエンド総合</a></li>
+        </ul>
+
+        <ul class="details">
+          <li>
+            <p>バックエンド</p>
+          </li>
+          <li><a href="">Java/SpringBoot</a></li>
+          <li><a href="">PHP/Laravel</a></li>
+          <li><a href="">PHP/Laravel総合研修</a></li>
+          <li><a href="">Python/Django</a></li>
+        </ul>
+
+        <ul class="details">
+          <li>
+            <p>Web制作</p>
+          </li>
+          <li><a href="">Figma</a></li>
+          <li><a href="">Web制作基礎</a></li>
+          <li><a href="">Web制作総合</a></li>
+          <li><a href="">WordPress</a></li>
+        </ul>
+      </ul>
+      <ul>
+        <li><a href="" class="headerNav-movie"><span class="headerNav-small-movie">〜 見積もり・研修提案 〜</span>無料相談<img
+              src="img/movie-top-icon.webp"></a></li>
+        <li><a href="" class="headerNav-list"><span class="headerNav-small-list">〜 料金が気になる方 〜</span>資料請求<img
+              src="img/note-top-icon.webp"></a></li>
       </ul>
     </nav>
   </div>
 
+
   <main>
-    <section class="top--title">
-      <div class="sp--top--title">
-        <img class="sp-top-img" src="img/sp:top.coco-citta.webp" alt="coco画像">
-
-        <div class="main-title">
-          <img src="img/text:coco-citta2.webp" alt="coco-citta画像">
-          <h2>あなたのための<br>幸せレシピ</h2>
-          <p>氣清流バランスケアは氣エネルギーの調整を行い、<br>アトピーなどの症状をはじめ、<br>体の根本改善を目指します。</p>
-        </div>
+    <section class="main-section-1">
+      <img class="main-top-img" src="img/Tech-top-img.webp" alt="トップ画像">
+      <div class="top-AI-btn">
+        <a href="" class="AI-btn">資料請求はこちら</a>
+        <a href="" class="AI-btn">無料相談はこちら</a>
       </div>
-
-      <span class="gradation"></span>
-
-      <img class="top--img" src="img/pc:top.coco-citta.webp" alt="coco画像">
     </section>
 
 
-    <section>
-      <article class="top-wrap">
-        <div class="sp--top-wrap">
-          <img src="img/text1.webp">
-          <h3><span>こんなお悩み</span>ありませんか?</h3>
-          <ul class="wrap">
-            <li><img src="img/concerns1.webp"><br>
-              治療を続けても<br>ぶり返すアトピー</li>
-            <li><img src="img/concerns2.webp"><br>
-              何となく<br>体調が悪い日が続く</li>
-            <li><img src="img/concerns3.webp"><br>
-              肩こり・腰痛<br>などがずっと続いている</li>
-            <li><img src="img/concerns4.webp"><br>
-              自律神経の<br>乱れを感じる</li>
-          </ul>
+    <section class="main-section-2">
+      <img class="offAI-img-pc" src="img/off-pc.webp" alt="75%off画像pc">
+      <img class="offAI-img-sp" src="img/0ff-sp.webp" alt="75%off画像sp">
+      <h2>個別の無料セミナー開催中！</h2>
+      <a href=""><img class="seminar-img-pc" src="img/seminar-pc.webp"></a>
+      <a href=""><img class="seminar-img-sp" src="img/seminar-sp.webp"></a>
+    </section>
+
+
+    <section class="main-section-3">
+      <div class="lifeWorry-list">
+        <h2>生活Ai活用に向けて<br><span>お悩み</span>ありませんか？</h2>
+        <div class="think-worries">
+          <div class="think-text">
+            <p>業務効率化を実現したいが、<br>何から手をつければいいか<br>わからない</p>
+            <img src="img/think-img1.webp">
+          </div>
+          <div class="think-text">
+            <p>研修を受けても<br>本当に効果が出るか不安</p>
+            <img src="img/think-img2.webp">
+          </div>
+          <div class="think-text">
+            <p>自社の業務にも<br>生成AIを活用できるか疑問</p>
+            <img src="img/think-img3.webp">
+          </div>
+        </div>
+        <div class="solve">
+          <h4>Tech Mentorが<span>全て解決！</span></h4>
+          <p>弊社の生成AI研修では、<span>生成AIに関する知識取得だけに留まらず、</span><br><span>実践課題に着手により業務効率化を実現</span>させます。</p>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="main-section-4">
+      <h2>受講された方の業務効率化事例</h2>
+      <div class="example-visual">
+        <ol>
+          <li><img src="img/example-img1.webp" alt="プレゼン用の構成～資料作成を数時間→数分"></li>
+          <li><img src="img/example-img2.webp" alt="AIワークフローで営業活動時間を数時間→5分"></li>
+          <li> <img src="img/example-img3.webp" alt="LPの企画から公開までを数日→1時間"></li>
+        </ol>
+        <button id="prev">&laquo;</button>
+        <button id="next">&raquo;</button>
+        <p>その他、研修受講後の業務効率化の成功例を多数報告いただいております！！</p>
+      </div>
+    </section>
+
+
+    <section class="main-section-5">
+      <h2>受講者に合わせた最適なコースを展開</h2>
+      <div class="courseExpand">
+        <a>
+          <img src="img/course1.webp">
+          <p>e-ラーニングコース</p>
+        </a>
+
+        <a>
+          <img src="img/course2.webp">
+          <p>営業コース</p>
+        </a>
+
+        <a>
+          <img src="img/course3.webp">
+          <p>マーケティング<br>コース</p>
+        </a>
+
+        <a>
+          <img src="img/course4.webp">
+          <p>【貴社専用】<br>カスタマイズコース</p>
+        </a>
+      </div>
+
+      <div class="courseExpand-free">
+        <p>カリキュラムのカスタマイズご希望の方は無料相談会にて承ります。</p>
+        <a href="">無料相談に申し込む</a>
+      </div>
+    </section>
+
+
+    <section class="main-section-6">
+      <h2>生成AIを活用して<br>業務効率化を達成するまで伴走します</h2>
+      <div>
+        <a href=""><img src="img/btn-yellow.webp"></a>
+      </div>
+      <div>
+        <a href=""><img src="img/btn-white.webp"></a>
+      </div>
+    </section>
+
+
+    <section class="main-section-7">
+      <h2>生成AIの社内導入を専門家が徹底サポート!</h2>
+      <article class="support">
+        <img class="pc-support-img" src="img/support-img1.webp">
+        <div class="support-content">
+          <span class="support-number">01</span>
+          <h3>生成AIの基礎から実務応用までを取り揃えた実践的カリキュラム</h3>
+          <img class="sp-support-img" src="img/support-img1.webp">
+          <p> ChatGPTの使い方だけでなく、実務での応用事例やその他のAIツールとの連携を学ぶことができます。<br>
+            実践課題を着手いただくことで、受講生は生成AIツールを使った業務効率化のコツを学習します。<br>
+            自社に立ち返った際にすぐに生成AIを活用できるようになります。</p>
         </div>
       </article>
 
-      <article>
-        <div class="answer">
-          <span>そんな不定愁訴には</span>
-          <h2>氣清流バランスケア</h2>
-          <span>がおすすめです。</span>
+      <article class="support">
+        <img class="pc-support-img" src="img/support-img2.webp">
+        <div class="support-content">
+          <span class="support-number">02</span>
+          <h3>貴社専用にカスタムした生成AI社内導入までのロードマップを作成してご提供!</h3>
+          <img class="sp-support-img" src="img/support-img2.webp">
+          <p> 生成AI活用のプロが貴社のAI活用導入までのロードマップを策定!<br>
+            企業ごとに抱える悩みをクリティカルに解決します。</p>
         </div>
+      </article>
 
-        <span class="gradation-2"></span>
-
-        <img class="answer-img1" src="img/pc:main1.coco-citta.webp" alt="">
-        <img class="answer-img2" src="img/pc:main2.coco-citta.webp" alt="">
-
-        <span class="gradation-3"></span>
-
-
-        <img class="answer-img1--pc" src="img/sp:main1.coco-citta.webp" alt="">
-        <img class="answer-img2--pc" src="img/sp:main2.coco-citta.webp" alt="">
-
+      <article class="support">
+        <img class="pc-support-img" src="img/support-img3.webp">
+        <div class="support-content">
+          <span class="support-number">03</span>
+          <h3>研修終了後も専門家が面談を実施！</h3>
+          <img class="sp-support-img" src="img/support-img3.webp">
+          <p> 研修終了後に実務導入した際のお悩みを継続サポート！<br>
+            リスキリング研修に留まらずAIの浸透まで手厚くサポートいたします。</p>
+        </div>
       </article>
     </section>
 
-    <section class="wonder">
-      <img class="text2" src="img/what is that.webp" alt="テキスト">
-      <br>
-      <h4><span>氣清流バランスケア</span>ってナニモノ？</h4>
-      <p>心身ともに健やかであるために必要なこと。それは、氣エネルギーを正常に流動させ、白流の選りと水分代割の帰りを改善すること。<br>
-        気清流バランスケアは、三白水の気エネルギーに着日し、エネルギー調整することで、<br>肉体園（白液・水分代謝）への伝達と、エネルギー面（魂・スピリチュアル）への伝報から起こる、<br>体内外の容を体感し、細胞レベルで気エネルギーの猪環を正常化させることを目指します。
-      </p>
 
-      <div class="wonder-explanation-1">
-        <img src="img/pc:stretch1.webp">
-        <div class="explanation-1">
-          <h5><span>氣清流</span>ってなに？</h5>
-          <p>
-            身能では「共常なし」と言われる。不定（染島）や要代用（うつ、バニック、自体調。00度旅日、アトピーなど）を。東洋医学や部車医学アーコルグェーダの点からカウンセリングし、結と心食のアンバランスでこる。新ネルギーの男期限を直常化させる諸術法です。
-          </p>
-        </div>
-      </div>
+    <section class="main-section-8">
+      <div class="AI-plan-contents wrapper">
+        <h2>料金</h2>
+        <div class="AI-plan-details">
+          <div class="AI-plan-card">
+            <div class="AI-plan-cardHeading">
+              <h3 class="AI-plan-cardTitle">実践AIマスタープラン</h3>
+              <p class="AI-plan-cardLabel">オススメ！</p>
+            </div>
+            <div class="AI-plan-cardDetails">
+              <p class="AI-plan-cardText">生成AIの活用を伴走支援!<br>生成AIを活用した業務効率化を最速で達成</p>
+              <div class="AI-plan-cardPriceBox">
+                <div class="AI-plan-cardPriceBoxTop">
+                  <p class="AI-plan-cardPriceBoxLabel">通常価格</p>
+                  <p class="AI-plan-cardPriceBoxNum">¥396,000(税込)</p>
+                </div>
+                <p class="AI-plan-cardPriceBoxMiddle">助成金適用後</p>
+                <p class="AI-plan-cardPriceBoxBottom">¥99,000<span class="AI-plan-cardPriceBoxBottom--small">(税込)</span>
+                </p>
+              </div>
+              <ul class="AI-plan-cardList">
+                <li class="AI-plan-cardCheck">生成AIの基礎から実際の業務自動化を体験</li>
+                <li class="AI-plan-cardCheck">10時間分のオンライン講義</li>
+                <li class="AI-plan-cardCheck">研修期間:約2ヶ月</li>
+                <li class="AI-plan-cardCheck">研修受講後に早速自社の業務改善を目指す企業向け</li>
+              </ul>
+              <a href="" class="AI-plan-cardBtn">お問い合わせ</a>
+            </div>
+          </div>
 
-      <div class="wonder-explanation-2">
-        <div class="explanation-2">
-          <h5><span>氣エネルギー</span>ってなに？</h5>
-          <p>生命活動の根幹をなすエネルギー源。活動性をもった物質で絶えず動いて全身を選る。人体に原気、宗気、営気、街気の4つ の気があるとされています。</p>
+          <div class="AI-plan-card">
+            <div class="AI-plan-cardHeading">
+              <h3 class="AI-plan-cardTitle">eラーニングプラン</h3>
+            </div>
+            <div class="AI-plan-cardDetails">
+              <p class="AI-plan-cardText">約10時間で生成AIの基礎をマスター<br>何度も見返せる！</p>
+              <div class="AI-plan-cardPriceBox">
+                <div class="AI-plan-cardPriceBoxTop">
+                  <p class="AI-plan-cardPriceBoxLabel">通常価格</p>
+                  <p class="AI-plan-cardPriceBoxNum">¥217,800(税込)</p>
+                </div>
+                <p class="AI-plan-cardPriceBoxMiddle">助成金適用後</p>
+                <p class="AI-plan-cardPriceBoxBottom">¥54,450<span class="AI-plan-cardPriceBoxBottom--small">(税込)</span>
+                </p>
+              </div>
+              <ul class="AI-plan-cardList">
+                <li class="AI-plan-cardCheck">生成AIの基礎</li>
+                <li class="AI-plan-cardCheck">約10時間のインプット教材</li>
+                <li class="AI-plan-cardCheck">任意で約8時間のアウトプット教材</li>
+                <li class="AI-plan-cardCheck">視聴可能期間:2ヶ月</li>
+                <li class="AI-plan-cardCheck">好きな時間に学習可能</li>
+              </ul>
+              <a href="" class="AI-plan-cardBtn">お問い合わせ</a>
+            </div>
+          </div>
         </div>
-        <img src="img/pc:stretch2.webp">
-      </div>
     </section>
 
-    <section class="check-list">
-      <div class="list-text">
-        <h6>氣清流バランスケアが<br>向いている</h6>
-      </div>
-      <div class="list-1">
-        <p>チェックリストでお手軽診断</p>
-        <ul>
-          <li><img src="img/check.webp">上半身に炎症が起きやすい（頭術、ニキビなど）</li>
-          <li><img src="img/check.webp">時中症になったことがある</li>
-          <li><img src="img/check.webp">アトピーや手習修をぷり返す</li>
-          <li><img src="img/check.webp">職に圧迫感があり、声を出しづらい</li>
-          <li><img src="img/check.webp">顔や手がほてる</li>
-          <li><img src="img/check.webp">白目が流しやすい、白目が浮要む</li>
-          <li><img src="img/check.webp">席臭や獣臭がたまにする（海が気体で出ている）</li>
-        </ul>
-      </div>
+    <section class="main-section-9">
+      <h2>よくある質問</h2>
+      <details>
+        <summary><span>Q.</span>助成金の申請はどのように行いますか？</summary>
+        <span>A.</span>
+        専門のコンサルタントが申請手続きをサポートいたしますので、ご安心ください。
+      </details>
+
+      <details>
+        <summary><span>Q.</span>研修後のサポートはどのようになっていますか？</summary>
+        <span>A.</span>
+        研修終了後も定期的なフォローアップセッションや個別サポートを提供しています。
+      </details>
+
+      <details>
+        <summary><span>Q.</span>オンラインとオフライン、どちらでも受講できますか？</summary>
+        <span>A.</span>
+        はい、ニーズに合わせてオンラインおよびオフラインでの受講が可能です。
+      </details>
+
+      <details>
+        <summary><span>Q.</span>研修の対象レベルは初心者でも大丈夫ですか？</summary>
+        <span>A.</span>
+        はい、基礎から応用まで幅広くカバーしているため、初心者から上級者まで対応しております。
+      </details>
     </section>
   </main>
-
-  <footer>
-    <img src="img/text:coco-citta1.webp">
-
-    <ul>
-      <li><a href="">氣清流バランスケアとは</a></li>
-      <li><a href="">メニュー</a></li>
-      <li><a href="">お客様の声</a></li>
-      <li><a href="">アクセス</a></li>
-    </ul>
-    <hr>
-    <small>&copy; 2025 coco-citta</small>
-  </footer>
-
   <script src="main.js"></script>
 </body>
 
